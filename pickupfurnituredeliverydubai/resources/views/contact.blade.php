@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+   <title>contact-24/7 Furniture & Appliance Pickup and Delivery Service in Dubai | +971 58 912 5005</title>  
+@include('meta')  
+<meta name="description" content="Fast & Reliable Furniture & Appliance Pickup and Delivery Services in Dubai. We handle sofas, fridges, washing machines, and more with same-day service. Call +971 58 912 5005 for quick assistance.">  
+<meta name="keywords" content="furniture pickup and delivery, fridge pick up and delivery, furniture pickup and delivery service, appliance pickup and delivery, furniture pick up delivery service, couch pick up and delivery, pick up sofa and deliver, sofa pick up and delivery, appliances pickup delivery, furniture pick up and delivery near me, small furniture pick up and delivery, furniture pickup and delivery service near me, same day furniture pick up and delivery, refrigerator pick up and delivery, refrigerator pickup delivery, washing machine pick up and delivery, pick up and delivery, pick up and delivery service, pick up delivery service, local pickup and delivery service near me, same day pick up and delivery, same day pickup and delivery service, pick up delivery service near me, pick up and delivery near me, online pickup and delivery, delivery pick up service near me, same day delivery pick up, service pick up and delivery, home pickup and delivery, Furniture pickup delivery Dubai, 0589125005">  
+<meta name="author" content="PickupDeliveryDubai.com">  
+<meta name="robots" content="index, follow">  
+   <style>
+     :root {
+        --primary-color: #002B5B;
+        --secondary-color: #FFD700;
+        --accent-color: #FF5E00;
+        --bg-color: #F7F7F7;
+        --text-color: #1A1A1A;
+        --text-secondary: #555555;
+        --white: #ffffff;
+    }
+    
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        color: var(--text);
+        background-color: var(--light-bg);
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Navigation */
+    nav {
+        background-color: var(--primary);
+        padding: 1rem;
+        color: var(--white);
+    }
+    
+    /* Hero Section */
+    .hero-contact {
+        background: linear-gradient(135deg, rgba(0,95,115,0.9) 0%, rgba(10,147,150,0.9) 100%), url('images/contact.webp') no-repeat center center/cover;
+        color: var(--white);
+        padding: 3rem 1rem;
+        text-align: center;
+    }
+    
+    .hero-contact h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    /* Contact Container */
+    .contact-container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    /* Contact Form */
+    .contact-form {
+        background: var(--white);
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: var(--shadow-md);
+    }
+    
+    .form-group {
+        margin-bottom: 1.2rem;
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        color: var(--primary);
+    }
+    
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1rem;
+        transition: var(--transition);
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus {
+        border-color: var(--secondary);
+        box-shadow: 0 0 0 2px rgba(238,155,0,0.2);
+        outline: none;
+    }
+    
+    .form-group textarea {
+        height: 120px;
+    }
+    
+    .submit-btn {
+        background-color: var(--accent);
+        color: var(--white);
+        border: none;
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: var(--transition);
+        width: 100%;
+    }
+    
+    .submit-btn:hover {
+        background-color: #9a3302;
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+    }
+    
+    /* Contact Methods */
+    .contact-methods {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .contact-card {
+        background: var(--white);
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: var(--shadow-sm);
+        display: flex;
+        align-items: center;
+        transition: var(--transition);
+    }
+    
+    .contact-card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-md);
+    }
+    
+    .contact-icon {
+        font-size: 1.5rem;
+        color: var(--accent);
+        margin-right: 1rem;
+        min-width: 40px;
+        text-align: center;
+    }
+    
+    .contact-info h3 {
+        margin: 0 0 0.3rem 0;
+        color: var(--primary);
+        font-size: 1.1rem;
+    }
+    
+    .contact-info a,
+    .contact-info p {
+        color: var(--text) !important;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 0.9rem;
+        margin: 0;
+        transition: var(--transition);
+    }
+    
+    .contact-info a:hover {
+        color: var(--accent);
+    }
+    
+    /* Success Message */
+    #success-message {
+        display: none;
+        background: #4CAF50;
+        color: white;
+        padding: 0.8rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    /* Location Section */
+    .location-section {
+        background-color: var(--light-bg);
+        padding: 40px 0;
+    }
+    
+    .location-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .map-iframe {
+        height: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: var(--shadow-md);
+    }
+    
+    .location-info {
+        background: var(--white);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: var(--shadow-sm);
+    }
+    
+    .location-marker {
+        background: var(--accent);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 12px;
+        color: var(--white);
+        font-size: 1.2rem;
+    }
+    
+    .directions-btn {
+        display: block;
+        text-align: center;
+        background: var(--accent);
+        color: var(--white);
+        padding: 10px 20px;
+        border-radius: 50px;
+        text-decoration: none;
+        margin-top: 20px;
+        font-weight: bold;
+        transition: var(--transition);
+    }
+    
+    .directions-btn:hover {
+        background: #9a3302;
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+    }
+    
+    /* Desktop Styles */
+    @media (min-width: 768px) {
+        .hero-contact {
+            padding: 5rem 1rem;
+        }
+        
+        .hero-contact h1 {
+            font-size: 3rem;
+        }
+        
+        .contact-container {
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 3rem auto;
+        }
+        
+        .contact-form {
+            padding: 2rem;
+        }
+        
+        .contact-card {
+            padding: 2rem;
+        }
+        
+        .contact-icon {
+            font-size: 2rem;
+            margin-right: 1.5rem;
+        }
+        
+        .submit-btn {
+            width: auto;
+        }
+        
+        .location-container {
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        
+        .map-iframe {
+            height: 400px;
+        }
+        
+        .location-info {
+            padding: 30px;
+        }
+    }
+</style>
+
+<!-- Mobile-Friendly Contact Page Structure -->
+<body>
+    <!-- Navigation -->
+    @include('navbar')
+    
+    <!-- Hero Section -->
+    <section class="hero-contact">
+        <div class="container">
+            <h1>Contact Our Furniture Delivery Team</h1>
+            <p>Fast, reliable furniture and appliance pickup & delivery services across Dubai - available 24/7!</p>
+        </div>
+    </section>
+    
+    <!-- Contact Container -->
+    <div class="contact-container">
+        <!-- Contact Form (Shows First on Mobile) -->
+        <div class="contact-form">
+            <h2 style="color: var(--primary); margin-top: 0;">Request a Pickup</h2>
+            <form id="contactForm" method="POST" action="{{ route('contact.submit') }}">
+                @csrf
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+971 XX XXX XXXX" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="service">Service Needed</label>
+                    <select id="service" name="service">
+                        <option value="Furniture Pickup">Furniture Pickup & Delivery</option>
+                        <option value="Appliance Pickup">Appliance Pickup & Delivery</option>
+                        <option value="Sofa Delivery">Sofa Pickup & Delivery</option>
+                        <option value="Fridge Delivery">Fridge Pickup & Delivery</option>
+                        <option value="Other">Other Items</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Special Instructions</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Schedule Pickup</button>
+                
+                <div id="success-message">
+                    Thank you! We'll contact you within 30 minutes to confirm your pickup.
+                </div>
+            </form>
+        </div>
+        
+        <!-- Contact Methods -->
+        <div class="contact-methods">
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-info">
+                    <h3>Email Us</h3>
+                    <a href="mailto:info@pickupfurnituredeliverydubai.com">info@pickupfurnituredeliverydubai.com</a>
+                </div>
+            </div>
+            
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="contact-info">
+                    <h3>WhatsApp</h3>
+                    <a href="https://wa.me/971589125005" target="_blank">+971 58 912 5005</a>
+                </div>
+            </div>
+            
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contact-info">
+                    <h3>Call Us</h3>
+                    <a href="tel:+971589125005">+971 58 912 5005</a>
+                </div>
+            </div>
+            
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-info">
+                    <h3>Location</h3>
+                    <p>Dubai, United Arab Emirates</p>
+                </div>
+            </div>
+            
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-info">
+                    <h3>Working Hours</h3>
+                    <p>24/7 Emergency Services</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Location Section -->
+    <section class="location-section">
+        <div class="location-container">
+            <div class="map-iframe">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462565.1975811776!2d54.94755498640639!3d25.07508539361346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai!5e0!3m2!1sen!2sae!4v1683034257193!5m2!1sen!2sae" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            
+            <div class="location-info">
+                <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                    <div class="location-marker">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--primary); margin: 0 0 5px 0; font-size: 1.2rem;">Dubai Headquarters</h3>
+                        <p style="margin: 0; color: var(--text-light); font-size: 0.9rem;">We serve all areas of Dubai</p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <h4 style="color: var(--primary); margin-bottom: 12px; font-size: 1.1rem;">Service Hours</h4>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #eee; font-size: 0.9rem;">
+                            <span style="color: var(--text-light);">Standard Hours</span>
+                            <span style="font-weight: bold; color: var(--accent);">8:00 AM - 10:00 PM</span>
+                        </li>
+                        <li style="display: flex; justify-content: space-between; padding: 6px 0; font-size: 0.9rem;">
+                            <span style="color: var(--text-light);">Emergency Pickups</span>
+                            <span style="font-weight: bold; color: var(--accent);">24/7 Available</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <a href="https://goo.gl/maps/" target="_blank" class="directions-btn">
+                    <i class="fas fa-directions" style="margin-right: 6px;"></i> Get Directions
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    @include('footer')
+    
+    <!-- JavaScript for Form Submission -->
+    <script>
+       document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const form = e.target;
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const successMessage = document.getElementById('success-message');
+    
+    // Disable button to prevent multiple submissions
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+    
+    // Get form data
+    const formData = new FormData(form);
+    
+    // Send AJAX request
+    fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'X-Requested-With': 'XMLHttpRequest',
+            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        successMessage.style.display = 'block';
+        successMessage.textContent = data.message;
+        form.reset();
+        
+        // Hide success message after 5 seconds
+        setTimeout(() => {
+            successMessage.style.display = 'none';
+        }, 5000);
+    })
+    .catch(error => {
+        successMessage.style.display = 'block';
+        successMessage.style.backgroundColor = '#f44336';
+        successMessage.textContent = 'Error submitting form. Please try again.';
+    })
+    .finally(() => {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Message';
+    });
+});
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
