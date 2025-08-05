@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>aboutUs_Junk Removal Dubai</title>
+    <link rel="icon" href="Assets/Junk-Removal-Dubai-2_300x300.avif" type="image/png">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- FontAwesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+  <style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure full width and height, no overflow */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Remove spacing from all layout components */
+section, .container, .row, .col, header, footer, nav, main {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Force full-width layout */
+.full-width {
+  width: 100vw !important;  /* 100% of viewport width */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Disable Bootstrap gutter spacing between columns */
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  margin: 0 !important;
+}
+
+/* Prevent max-width on Bootstrap containers */
+.container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Remove horizontal scrollbar if caused by fixed-position elements */
+body::-webkit-scrollbar {
+  display: none;
+}
+    /* Top bar styles */
+    .top-bar {
+      background-color: #2080df;
+      padding: 10px 0;
+      color: #fff;
+    }
+
+    .top-bar a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .top-bar a:hover {
+      color: #ffe600;
+    }
+
+    .social-icons a {
+      color: #fff;
+      margin-left: 10px;
+      font-size: 1.1rem;
+    }
+
+    .social-icons a:hover {
+      color: #ffe600;
+    }
+
+    /* Navbar customization */
+    .navbar {
+      background-color: #ffffff;
+    }
+
+    .navbar-nav {
+      margin: 0 auto;
+    }
+
+    .navbar-nav .nav-link {
+      color: #000;
+      font-weight: 500;
+      padding: 10px 15px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+      color: #2080df;
+      /* background-color: #f1f1f1; */
+      border-radius: 5px;
+    }
+
+    .navbar-brand img {
+      max-width: 150px;
+    }
+
+    /* Cart Drawer */
+    #CartDrawer {
+      width: 300px;
+      height: 100vh;
+      right: 0;
+      top: 0;
+      z-index: 1050;
+      display: none;
+    }
+       .carousel-item {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    .carousel-caption {
+      bottom: 20%;
+    }
+
+    .carousel-caption h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      color: yellow;
+    }
+
+    .carousel-caption p {
+      font-size: 1.25rem;
+      color: white;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .whatsapp-float img {
+      width: 50px;
+    }
+
+    .whatsapp-number {
+      background: white;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-right: 5px;
+      font-weight: 500;
+    }
+
+     .hover-reveal img {
+    transition: filter 0.3s ease;
+  }
+
+  .hover-reveal:hover img {
+    filter: blur(4px);
+  }
+
+  /* image text h5 h6  */
+  .custom-card {
+  height: 400px;
+  background-color: #000;
+}
+
+.card-img-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.card-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-hover-text {
+  display: none;
+  font-weight: 600;
+  z-index: 3;
+}
+
+.custom-card:hover .card-img-bg {
+  transform: scale(1.1) translateY(-10px);
+  filter: blur(3px);
+}
+
+.custom-card:hover .card-title,
+.custom-card:hover .card-text {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.custom-card:hover .card-hover-text {
+  display: block;
+  opacity: 1;
+}
+ .fw-bold.text-warning.display-4 {
+      color: #FFC107; /* Default color similar to text-warning */
+    }
+
+    .fw-bold.text-warning.display-4:hover {
+      color: #198754; /* Hover color similar to btn-success */
+    }
+
+    .no-bug-icon {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      border: 4px solid red;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 60px;
+      font-size: 24px;
+      color: black;
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+
+    .no-bug-icon::after {
+      content: "";
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      width: 80%;
+      height: 4px;
+      background-color: red;
+      transform: rotate(45deg);
+      transform-origin: center;
+    }
+
+       .hover-img {
+  transition: transform 0.3s ease;
+}
+
+.hover-img:hover {
+  transform: scale(0.9); /* scales the image down to 90% */
+}
+
+
+  </style>
+</head>
+
+<body id="contact">
+
+  <!-- Top Contact & Social Bar -->
+  <div class="top-bar">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between align-items-center flex-wrap">
+        <div>
+          <a href="tel:+971562394325" class="me-4">
+            <i class="fa fa-phone me-1"></i> +971562394325
+          </a>
+          <a href="index.html">
+            <i class="fa fa-envelope me-1"></i> info@junk-removal-dubai.com
+          </a>
+        </div>
+        <div class="social-icons">
+          <a href="https://twitter.com/shopify" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/shopify" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank" title="Google+"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" target="_blank" title="Tumblr"><i class="fab fa-tumblr"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <img src="Assets/Junk-Removal-Dubai-2_300x300.avif" alt="Junk Removal Dubai" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+      aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+      <ul class="navbar-nav text-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutUs.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="charityDonation.html">Charity Donation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactUs.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+   <div class="whatsapp-float d-flex align-items-center">
+  <div class="whatsapp-number">+971562394325</div>
+  <a href="https://wa.me/+971562394325" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+  </a>
+
+ <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;">
+  <a href="tel:+971562394325" title="Call Now"
+     style="background-color: #25D366; border-radius: 50%; width: 60px; height: 60px;
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+    <img src="https://img.icons8.com/ios-filled/30/ffffff/phone.png" alt="Call Icon" />
+  </a>
+</div>
+
+</div>
+<div class="container my-4">
+  <div class="card shadow-sm">
+    <div class="card-body d-flex flex-column justify-content-center align-items-center py-5">
+      <h1 class="card-title fw-bold text-center">About</h1>
+      <h3 class="text-muted mb-0 text-center">Home / About</h3>
+    </div>
+  </div>
+</div>
+<br>
+<div class="container-fluid">
+  <div class="row g-0">
+    <!-- Left Image -->
+    <div class="col-md-6">
+      <img src="Assets/charity 1.webp" alt="Furniture" class="img-fluid w-100 hover-img">
+    </div>
+
+    <!-- Right Content -->
+    <div class="col-md-6 d-flex align-items-center p-5">
+      <div>
+        <h3>Give your furniture to charity</h3>
+        <h1 class="fw-bold">Charity Furniture Collection Service</h1>
+        <p class="mt-3">
+          At Charity Furniture Collection Service, we believe in the power of giving back to our community while promoting sustainability and reducing waste.
+        </p>
+        <p>
+          Our mission is simple: to make it easy and convenient for residents in Dubai to donate their gently used furniture to those in need.
+        </p>
+
+        <div class="row">
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <li>▸ Furniture Collection Service</li>
+              <li>▸ used furniture donation near me</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <li>▸ furniture pickup</li>
+              <li>▸ charity collection near me</li>
+              <li>▸ charity furniture donation</li>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+<section class="hero-section d-flex flex-column justify-content-center align-items-center text-center text-white"
+  style="background: url('Assets/download2.jpeg') no-repeat center center; 
+         background-size: cover; 
+         min-height: 120vh; 
+         padding: 10px 20px;">
+         
+  <div class="container">
+    <h4>Charity Furniture Donation</h4>
+
+    <h1 class="fw-bold text-white display-4">
+     Why Choose Our Junk Charity Furniture Collection Service
+    </h1>
+
+    <div class="container py-5">
+      <div class="row text-white">
+        <!-- Left Column -->
+         <br><br>
+        <div class="col-md-6 mb-4">
+          <h3 class="text-white">Charity Donation Services</h3>
+          <p>Welcome to Charity Furniture Collection Service, your dedicated partner in giving back to the community while <br>
+             making a positive impact on the environment. Based in the vibrant city of Dubai, we specialize in providing hassle-free furniture donation and collection services to support charitable causes and promote sustainability.</p>
+        </div>
+<br><br>
+        <!-- Right Column -->
+        <div class="col-md-6 mb-4">
+          <h2 class="text-white">Furniture For Charity Near Me</h2>
+          <p>Looking to give furniture to charity near me? We offer furniture removal near me, including couch removal,<br> air conditioner removal, and appliance pickup. Give away furniture to charity. Donate furniture today—help those in need!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<div class="container-fluid">
+  <div class="row g-0">
+    <!-- Right Content (now first) -->
+    <div class="col-md-6 d-flex align-items-center p-5">
+      <div>
+      
+        <h1 class="fw-bold">Give Away Furniture to Charity Near Me</h1>
+        <p class="mt-3">
+          Looking to give away furniture to charity near me? We make it easy to donate furniture, whether it's a sofa, couch, or appliance. Our team offers fast furniture removal near me, including air conditioner removal service near me and old furniture disposal near me. We support local causes by collecting your used furniture donation near me and giving it a second life. If you’re searching for places to give away furniture or a charity that picks up furniture, we’re here to help. Give furniture to charity today and make a meaningful difference in someone’s life.
+
+
+        </p>
+        
+
+        
+      </div>
+    </div>
+
+    <!-- Left Image (now second) -->
+    <div class="col-md-6">
+      <img src="Assets/Leonardo_Kino_XL_generate_the_appliances_banner_size_image_1_768x940.webp" alt="Furniture" class="img-fluid w-100 hover-img">
+    </div>
+  </div>
+</div>
+
+<br>
+<footer class="bg-dark text-white pt-5 pb-4" style="background-image: url(''); background-size: cover; background-repeat: no-repeat;">
+  <div class="container-fluid px-0">
+    <div class="row mx-0">
+      <!-- About Us -->
+      <div class="col-md-3 col-lg-3 col-xl-3 px-4 py-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">About Us</h5>
+        <p>Are you tired of dealing with clutter in your home or office? Our junk removal service company in Dubai offers comprehensive solutions to help you reclaim your space.</p>
+        <a href="/">
+          <img src="Assets/022-300x134-1_x46@2x.png" alt="Junk Removal Dubai" class="img-fluid">
+        </a>
+      </div>
+
+      <!-- Opening Hours -->
+      <div class="col-md-3 col-lg-3 col-xl-3 px-4 py-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Opening Hours</h5>
+        <ul class="list-unstyled">
+          <li>Working Hours - 24/7</li>
+          <li>Our 24 hour junk removal service is at your disposal, ready to tackle at any hour of the day or night.</li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-3 col-lg-3 col-xl-3 px-4 py-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact Us</h5>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-home me-2"></i>Dubai, UAE</li>
+          <li><i class="fa fa-envelope me-2"></i><a href="mailto:info@junk-removal-dubai.com" class="text-white">info@junk-removal-dubai.com</a></li>
+          <li><i class="fa fa-phone me-2"></i>+971562394325</li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-3 col-lg-3 col-xl-3 px-4 py-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Newsletter</h5>
+   <h1 id="formMessage"></h1>
+
+<form id="newsletterForm" method="post" action="">
+  <div class="input-group">
+    <input type="email" class="form-control" placeholder="Your email address" name="email" required>
+    <button class="btn btn-warning" type="submit"><i class="fa fa-arrow-right"></i></button>
+  </div>
+</form>
+
+<script>
+document.getElementById("newsletterForm").addEventListener("submit", function(e) {
+  e.preventDefault(); // Prevent normal form submit
+
+  const form = e.target;
+  const emailInput = form.querySelector("input[name='email']");
+  const messageElement = document.getElementById("formMessage");
+
+  fetch("process_form.php", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: `email=${encodeURIComponent(emailInput.value)}`
+  })
+  .then(response => response.json())
+  .then(data => {
+    messageElement.textContent = data.message;
+    messageElement.style.color = data.status === "success" ? "green" : "red";
+    if (data.status === "success") {
+      emailInput.value = "";
+    }
+    // Clear the message after 5 seconds
+    setTimeout(() => {
+      messageElement.textContent = "";
+    }, 5000);
+  })
+  .catch(error => {
+    messageElement.textContent = "Something went wrong.";
+    messageElement.style.color = "red";
+    setTimeout(() => {
+      messageElement.textContent = "";
+    }, 5000);
+  });
+});
+</script>
+      </div>
+    </div>
+
+
+</footer>
+ <div class="top-bar">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between align-items-center flex-wrap">
+        <div>
+        <div class="col-md-7 col-lg-8">
+        <p class="text-center text-md-start mb-0">&copy; 2025 Junk Removal Dubai</p>
+      </div>
+        </div>
+        <div class="social-icons">
+          <a href="https://twitter.com/shopify" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/shopify" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank" title="Google+"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" target="_blank" title="Tumblr"><i class="fab fa-tumblr"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+  // Get current file name (e.g., "aboutUs.html")
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+  // Loop through all navbar links
+  document.querySelectorAll(".nav-link").forEach(link => {
+    const href = link.getAttribute("href");
+
+    // If link href matches current page, add 'active'
+    if (href === currentPage) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  });
+</script>
+
+</body>
+</html>

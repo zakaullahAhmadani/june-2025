@@ -1,0 +1,406 @@
+.elementor-1400 .elementor-element.elementor-element-44e83b35 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --gap: 20px 0px;
+    --background-transition: 0.3s;
+    --margin-top: 080px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-335007f6 {
+    width: auto;
+    max-width: auto;
+    z-index: 1;
+    text-align: center;
+}
+
+.elementor-1400 .elementor-element.elementor-element-335007f6.elementor-element {
+    --align-self: center;
+}
+
+.elementor-1400 .elementor-element.elementor-element-335007f6 .elementor-heading-title {
+    color: var(--e-global-color-821259b);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-1400 .elementor-element.elementor-element-11cf59be {
+    text-align: center;
+}
+
+.elementor-1400 .elementor-element.elementor-element-11cf59be .elementor-heading-title {
+    color: var(--e-global-color-accent);
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-4f569fb8>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-4f569fb8 {
+    text-align: center;
+    color: var(--e-global-color-accent);
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-d3c94db {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053 .elementor-swiper-button {
+    font-size: 20px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053 .swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053 .swiper-horizontal .swiper-pagination-progressbar {
+    height: 12px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053 .swiper-pagination-fraction {
+    font-size: 12px;
+    color: var(--e-global-color-primary);
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053 .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+    background-color: var(--e-global-color-accent);
+    opacity: var(--e-global-color-accent);
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053 .swiper-pagination-bullet-active,
+.elementor-1400 .elementor-element.elementor-element-c2d6053 .swiper-pagination-progressbar-fill {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053.elementor-testimonial--layout-image_inline .elementor-testimonial__footer,
+.elementor-1400 .elementor-element.elementor-element-c2d6053.elementor-testimonial--layout-image_stacked .elementor-testimonial__footer {
+    margin-top: 20px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053.elementor-testimonial--layout-image_above .elementor-testimonial__footer {
+    margin-bottom: 20px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053.elementor-testimonial--layout-image_left .elementor-testimonial__footer {
+    padding-right: 20px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053.elementor-testimonial--layout-image_right .elementor-testimonial__footer {
+    padding-left: 20px;
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053 .elementor-testimonial__text {
+    color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053 .elementor-testimonial__name {
+    color: var(--e-global-color-primary);
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.elementor-1400 .elementor-element.elementor-element-c2d6053 .elementor-testimonial__title {
+    color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+@media(max-width:1024px) {
+    .elementor-1400 .elementor-element.elementor-element-44e83b35 {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 18px;
+        --padding-right: 18px;
+    }
+
+    .elementor-1400 .elementor-element.elementor-element-335007f6 .elementor-heading-title {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-1400 .elementor-element.elementor-element-11cf59be .elementor-heading-title {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .elementor-1400 .elementor-element.elementor-element-c2d6053 .elementor-testimonial__text {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-1400 .elementor-element.elementor-element-c2d6053 .elementor-testimonial__title {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-1400 .elementor-element.elementor-element-44e83b35 {
+        --gap: 10px 0px;
+    }
+
+    .elementor-1400 .elementor-element.elementor-element-335007f6 .elementor-heading-title {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-1400 .elementor-element.elementor-element-11cf59be .elementor-heading-title {
+        font-size: 34px;
+    }
+
+    .elementor-1400 .elementor-element.elementor-element-4f569fb8 {
+        font-size: 16px;
+    }
+
+    .elementor-1400 .elementor-element.elementor-element-c2d6053 .elementor-testimonial__text {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-1400 .elementor-element.elementor-element-c2d6053 .elementor-testimonial__name {
+        font-size: 20px;
+    }
+
+    .elementor-1400 .elementor-element.elementor-element-c2d6053 .elementor-testimonial__title {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+}
+
+/* Start custom CSS for container, class: .elementor-element-d3c94db */
+.client-reviews .elementor-widget-testimonial-carousel .elementor-main-swiper {
+    width: 100% !important;
+}
+
+.client-reviews .elementor-testimonial {
+    padding: 60px 35px 35px 35px;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: relative;
+}
+
+.client-reviews .elementor-widget-testimonial-carousel .elementor-testimonial__text::before {
+    content: "\2605 \2605 \2605 \2605\2605";
+    font-size: 32px;
+    color: #ffa31a;
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    letter-spacing: 0.2em;
+}
+
+.client-reviews .elementor-testimonial::after {
+    content: "";
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background-image: url('../images/icons8-google.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 28px;
+    right: 38px;
+    z-index: 1;
+}
+
+.client-reviews .elementor-widget-testimonial-carousel .swiper-slide {
+    padding: 5px !important;
+}
+
+.client-reviews .elementor-widget-testimonial-carousel .elementor-testimonial__text {
+    font-style: normal !important;
+    margin-top: 20px;
+    text-align: start;
+    position: relative;
+}
+
+.client-reviews .swiper-slide {
+    overflow: unset !important;
+}
+
+.client-reviews .swiper-slide.swiper-slide-next .elementor-testimonial {
+    background: var(--e-global-color-primary);
+}
+
+.client-reviews .swiper-slide.swiper-slide-next .elementor-testimonial__text {
+    color: white;
+}
+
+.client-reviews .swiper-slide.swiper-slide-next .elementor-testimonial__name {
+    color: white;
+}
+
+.client-reviews .swiper-slide.swiper-slide-next .elementor-testimonial__title {
+    color: white;
+}
+
+.client-reviews .swiper-slide.swiper-slide-next .elementor-testimonial::after {
+    content: "";
+    /* Ensure the pseudo-element is created */
+    display: inline-block;
+    background-image: url('../images/icons8-google.svg');
+    background-size: contain;
+    /* Ensures the image is scaled correctly */
+
+}
+
+.client-reviews .elementor-testimonial--align-center.elementor-testimonial--layout-image_above .elementor-testimonial__footer,
+.elementor-testimonial--align-center.elementor-testimonial--layout-image_inline .elementor-testimonial__footer {
+    justify-content: start !important;
+}
+
+.client-reviews .swiper-slide.swiper-slide-next .elementor-testimonial::before {
+    content: "";
+    /* Necessary to create the pseudo-element */
+    display: block;
+    /* Ensure the pseudo-element behaves like a block */
+    width: 100%;
+    /* Set the width of the pseudo-element */
+    height: 100%;
+    /* Set the height of the pseudo-element */
+    background-image: url('../images/pngwing-shape.png');
+    /* Use the provided image URL */
+    background-size: contain;
+    /* Ensure the image is scaled proportionally */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    position: absolute;
+    /* Position the pseudo-element */
+    bottom: -60px;
+    /* Adjust as needed */
+    left: 0px;
+    /* Adjust as needed */
+}
+
+.client-reviews .elementor-testimonial {
+    filter: none !important;
+    /* Remove any filters */
+    text-shadow: none !important;
+    /* Remove text shadows */
+    transform: none !important;
+    /* Ensure no scaling/rotation affects clarity */
+    opacity: 1 !important;
+    /* Ensure full opacity */
+}
+
+.client-reviews .swiper-wrapper {
+
+    \-webkit-transition-timing-function: linear !important;
+
+    transition-timing-function: linear !important;
+
+}
+
+.client-reviews .elementor-widget-testimonial-carousel .elementor-testimonial__image img {
+    height: 60px;
+    width: 60px;
+}
+
+@media (max-width: 767px) {
+    .client-reviews .elementor-testimonial::after {
+        top: 25px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .client-reviews .elementor-widget-testimonial-carousel .elementor-testimonial__text::before {
+        left: 0px;
+        top: -48px;
+    }
+
+    .client-reviews .elementor-testimonial {
+        padding: 55px 22px 40px 22px;
+    }
+
+    .client-reviews .swiper-slide.swiper-slide-next .elementor-testimonial {
+        background: white;
+    }
+
+    .client-reviews .swiper-slide.swiper-slide-next .elementor-testimonial__text {
+        color: black;
+    }
+
+    .client-reviews .swiper-slide.swiper-slide-next .elementor-testimonial__name {
+        color: black;
+    }
+
+    .client-reviews .swiper-slide.swiper-slide-next .elementor-testimonial__title {
+        color: black;
+    }
+}
+
+/* End custom CSS */
+/* Start custom CSS */
+.style-1 {
+    color: var(--e-global-color-primary);
+}
+
+.subtitle p {
+    position: relative;
+    line-height: 30px;
+    padding: 0px 14px;
+    margin: 0px !important;
+    z-index: 9999 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+.subtitle p::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    background: var(--e-global-color-primary);
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    border-radius: 30px;
+}
+
+.counter-section .subtitle p {
+    color: black !important;
+}
+
+.counter-section .subtitle p::before {
+    background: white;
+}
+
+@media (max-width: 576px) {
+    .elementor-icon-list-items.elementor-inline-items {
+        gap: 10px !important;
+    }
+
+
+}
+
+/* End custom CSS */

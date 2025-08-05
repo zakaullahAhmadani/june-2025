@@ -1,0 +1,326 @@
+.elementor-919 .elementor-element.elementor-element-53c777cd {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --gap: 20px 0px;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.8;
+    --margin-top: 080px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0100px;
+    --padding-bottom: 0100px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-919 .elementor-element.elementor-element-53c777cd:not(.elementor-motion-effects-element-type-background),
+.elementor-919 .elementor-element.elementor-element-53c777cd>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("../images/area-covered-bg-fixmyappliances.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-919 .elementor-element.elementor-element-53c777cd::before,
+.elementor-919 .elementor-element.elementor-element-53c777cd>.elementor-background-video-container::before,
+.elementor-919 .elementor-element.elementor-element-53c777cd>.e-con-inner>.elementor-background-video-container::before,
+.elementor-919 .elementor-element.elementor-element-53c777cd>.elementor-background-slideshow::before,
+.elementor-919 .elementor-element.elementor-element-53c777cd>.e-con-inner>.elementor-background-slideshow::before,
+.elementor-919 .elementor-element.elementor-element-53c777cd>.elementor-motion-effects-container>.elementor-motion-effects-layer::before {
+    background-color: var(--e-global-color-accent);
+    --background-overlay: '';
+}
+
+.elementor-919 .elementor-element.elementor-element-53c777cd,
+.elementor-919 .elementor-element.elementor-element-53c777cd::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-919 .elementor-element.elementor-element-71e5a9cc {
+    width: auto;
+    max-width: auto;
+    z-index: 1;
+    text-align: center;
+}
+
+.elementor-919 .elementor-element.elementor-element-71e5a9cc.elementor-element {
+    --align-self: center;
+}
+
+.elementor-919 .elementor-element.elementor-element-71e5a9cc .elementor-heading-title {
+    color: var(--e-global-color-821259b);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-919 .elementor-element.elementor-element-35187ed {
+    width: var(--container-widget-width, 100%);
+    max-width: 100%;
+    --container-widget-width: 100%;
+    --container-widget-flex-grow: 0;
+    text-align: center;
+}
+
+.elementor-919 .elementor-element.elementor-element-35187ed.elementor-element {
+    --align-self: center;
+}
+
+.elementor-919 .elementor-element.elementor-element-35187ed .elementor-heading-title {
+    color: var(--e-global-color-821259b);
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.elementor-919 .elementor-element.elementor-element-26f9f619 {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    color: var(--e-global-color-821259b);
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.elementor-919 .elementor-element.elementor-element-26f9f619.elementor-element {
+    --align-self: center;
+}
+
+.elementor-919 .elementor-element.elementor-element-05bc95a .elementor-button {
+    background-color: var(--e-global-color-primary);
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    fill: var(--e-global-color-821259b);
+    color: var(--e-global-color-821259b);
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: var(--e-global-color-primary);
+    border-radius: 35px 35px 35px 35px;
+    padding: 17px 35px 17px 35px;
+}
+
+.elementor-919 .elementor-element.elementor-element-05bc95a .elementor-button:hover,
+.elementor-919 .elementor-element.elementor-element-05bc95a .elementor-button:focus {
+    background-color: var(--e-global-color-secondary);
+    border-color: var(--e-global-color-secondary);
+}
+
+.elementor-919 .elementor-element.elementor-element-05bc95a {
+    width: auto;
+    max-width: auto;
+}
+
+.elementor-919 .elementor-element.elementor-element-05bc95a>.elementor-widget-container {
+    margin: 25px 0px 0px 0px;
+}
+
+.elementor-919 .elementor-element.elementor-element-05bc95a .elementor-button-content-wrapper {
+    flex-direction: row-reverse;
+}
+
+.elementor-919 .elementor-element.elementor-element-05bc95a .elementor-button .elementor-button-content-wrapper {
+    gap: 10px;
+}
+
+@media(max-width:1024px) {
+    .elementor-919 .elementor-element.elementor-element-53c777cd {
+        --padding-top: 0100px;
+        --padding-bottom: 0100px;
+        --padding-left: 18px;
+        --padding-right: 18px;
+    }
+
+    .elementor-919 .elementor-element.elementor-element-71e5a9cc .elementor-heading-title {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-919 .elementor-element.elementor-element-35187ed {
+        --container-widget-width: 60%;
+        --container-widget-flex-grow: 0;
+        width: var(--container-widget-width, 60%);
+        max-width: 60%;
+        text-align: center;
+    }
+
+    .elementor-919 .elementor-element.elementor-element-35187ed .elementor-heading-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .elementor-919 .elementor-element.elementor-element-26f9f619 {
+        text-align: left;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-919 .elementor-element.elementor-element-53c777cd {
+        --gap: 10px 0px;
+        --padding-top: 080px;
+        --padding-bottom: 080px;
+        --padding-left: 18px;
+        --padding-right: 18px;
+    }
+
+    .elementor-919 .elementor-element.elementor-element-71e5a9cc.elementor-element {
+        --align-self: flex-start;
+    }
+
+    .elementor-919 .elementor-element.elementor-element-71e5a9cc {
+        text-align: left;
+    }
+
+    .elementor-919 .elementor-element.elementor-element-71e5a9cc .elementor-heading-title {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-919 .elementor-element.elementor-element-35187ed {
+        --container-widget-width: 100%;
+        --container-widget-flex-grow: 0;
+        width: var(--container-widget-width, 100%);
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .elementor-919 .elementor-element.elementor-element-35187ed .elementor-heading-title {
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    .elementor-919 .elementor-element.elementor-element-26f9f619 {
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .elementor-919 .elementor-element.elementor-element-05bc95a>.elementor-widget-container {
+        margin: 15px 0px 0px 0px;
+    }
+
+    .elementor-919 .elementor-element.elementor-element-05bc95a.elementor-element {
+        --align-self: flex-start;
+        --order: 99999
+            /* order end hack */
+        ;
+    }
+
+    .elementor-919 .elementor-element.elementor-element-05bc95a .elementor-button {
+        font-size: 15px;
+        padding: 016px 028px 16px 028px;
+    }
+}
+
+@media(min-width:1025px) {
+
+    .elementor-919 .elementor-element.elementor-element-53c777cd:not(.elementor-motion-effects-element-type-background),
+    .elementor-919 .elementor-element.elementor-element-53c777cd>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-attachment: fixed;
+    }
+}
+
+/* Start custom CSS for button, class: .elementor-element-05bc95a */
+.my-animated-button .elementor-button {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.35s;
+}
+
+.my-animated-button .elementor-button:hover {
+    transition: all 0.35s !important;
+}
+
+
+.my-animated-button .elementor-button::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -100%;
+    width: 125%;
+    height: 125%;
+    background: linear-gradient(to top,
+            rgba(229, 172, 142, 0),
+            rgba(255, 255, 255, 0.7) 50%,
+            rgba(229, 172, 142, 0));
+
+    transform: rotate(45deg);
+    z-index: 0;
+    animation: wave-animation 2.5s infinite linear;
+    pointer-events: none;
+}
+
+.my-animated-button .elementor-button span,
+.my-animated-button .elementor-button .elementor-button-icon {
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes wave-animation {
+    0% {
+        top: -50%;
+        left: -100%;
+    }
+
+    50% {
+        top: 0%;
+        left: 0%;
+    }
+
+    100% {
+        top: 50%;
+        left: 100%;
+    }
+}
+
+.my-animated-button .elementor-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End custom CSS */
+/* Start custom CSS */
+.style-1 {
+    color: var(--e-global-color-primary);
+}
+
+.subtitle p {
+    position: relative;
+    line-height: 30px;
+    padding: 0px 14px;
+    margin: 0px !important;
+    z-index: 9999 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+.subtitle p::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    background: var(--e-global-color-primary);
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    border-radius: 30px;
+}
+
+.counter-section .subtitle p {
+    color: black !important;
+}
+
+.counter-section .subtitle p::before {
+    background: white;
+}
+
+/* End custom CSS */

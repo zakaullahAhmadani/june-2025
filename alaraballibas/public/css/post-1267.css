@@ -1,0 +1,177 @@
+.elementor-1267 .elementor-element.elementor-element-5c603044 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --gap: 20px 0px;
+    --background-transition: 0.3s;
+    --padding-top: 080px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+    --z-index: 2;
+}
+
+.elementor-1267 .elementor-element.elementor-element-21f312b6 {
+    width: auto;
+    max-width: auto;
+    z-index: 1;
+    text-align: center;
+}
+
+.elementor-1267 .elementor-element.elementor-element-21f312b6.elementor-element {
+    --align-self: center;
+}
+
+.elementor-1267 .elementor-element.elementor-element-21f312b6 .elementor-heading-title {
+    color: var(--e-global-color-821259b);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-1267 .elementor-element.elementor-element-1b8b5c2a {
+    text-align: center;
+}
+
+.elementor-1267 .elementor-element.elementor-element-1b8b5c2a .elementor-heading-title {
+    color: var(--e-global-color-accent);
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.elementor-1267 .elementor-element.elementor-element-63d616f9>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-1267 .elementor-element.elementor-element-63d616f9 {
+    text-align: center;
+    color: var(--e-global-color-accent);
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.elementor-1267 .elementor-element.elementor-element-c390a79 {
+    --grid-columns: 3;
+}
+
+@media(max-width:1024px) {
+    .elementor-1267 .elementor-element.elementor-element-5c603044 {
+        --padding-top: 080px;
+        --padding-bottom: 0px;
+        --padding-left: 18px;
+        --padding-right: 18px;
+    }
+
+    .elementor-1267 .elementor-element.elementor-element-21f312b6 .elementor-heading-title {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-1267 .elementor-element.elementor-element-1b8b5c2a .elementor-heading-title {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .elementor-1267 .elementor-element.elementor-element-c390a79 {
+        --grid-columns: 2;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-1267 .elementor-element.elementor-element-5c603044 {
+        --gap: 10px 0px;
+    }
+
+    .elementor-1267 .elementor-element.elementor-element-21f312b6 .elementor-heading-title {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-1267 .elementor-element.elementor-element-1b8b5c2a .elementor-heading-title {
+        font-size: 34px;
+    }
+
+    .elementor-1267 .elementor-element.elementor-element-63d616f9 {
+        font-size: 16px;
+    }
+
+    .elementor-1267 .elementor-element.elementor-element-c390a79 {
+        --grid-columns: 1;
+    }
+}
+
+/* Start custom CSS for container, class: .elementor-element-5c603044 */
+.blog-post .elementor-post__text {
+    margin-top: -35px !important;
+    padding: 25px 20px !important;
+    z-index: 999;
+    background: white;
+    width: 94%;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-bottom: 4px solid var(--e-global-color-primary);
+}
+
+.blog-post .elementor-posts .elementor-post__card .elementor-post__read-more {
+    display: inline-block;
+    margin-bottom: 0px !important;
+}
+
+.blog-post .elementor-post .elementor-post__title a {
+    transition: all .5s;
+}
+
+.blog-post .elementor-post:hover .elementor-post__title a {
+    color: var(--e-global-color-primary);
+}
+
+.blog-post .elementor-post {
+    transition: all .5s;
+}
+
+.blog-post .elementor-post:hover {
+    transform: translateY(-15px);
+}
+
+/* End custom CSS */
+/* Start custom CSS */
+.style-1 {
+    color: var(--e-global-color-primary);
+}
+
+.subtitle p {
+    position: relative;
+    line-height: 30px;
+    padding: 0px 14px;
+    margin: 0px !important;
+    z-index: 9999 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+.subtitle p::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    background: var(--e-global-color-primary);
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    border-radius: 30px;
+}
+
+.counter-section .subtitle p {
+    color: black !important;
+}
+
+.counter-section .subtitle p::before {
+    background: white;
+}
+
+/* End custom CSS */

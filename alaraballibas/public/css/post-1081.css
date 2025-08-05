@@ -1,0 +1,148 @@
+.elementor-1081 .elementor-element.elementor-element-6471232 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --background-transition: 0.3s;
+  --overlay-opacity: 0.5;
+  --padding-top: 0100px;
+  --padding-bottom: 0100px;
+  --padding-left: 0px;
+  --padding-right: 0px;
+}
+
+.elementor-1081 .elementor-element.elementor-element-6471232:not(.elementor-motion-effects-element-type-background),
+.elementor-1081 .elementor-element.elementor-element-6471232>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+  background-image: url("../Assets/Dry-Cleaning-service.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.elementor-1081 .elementor-element.elementor-element-6471232::before,
+.elementor-1081 .elementor-element.elementor-element-6471232>.elementor-background-video-container::before,
+.elementor-1081 .elementor-element.elementor-element-6471232>.e-con-inner>.elementor-background-video-container::before,
+.elementor-1081 .elementor-element.elementor-element-6471232>.elementor-background-slideshow::before,
+.elementor-1081 .elementor-element.elementor-element-6471232>.e-con-inner>.elementor-background-slideshow::before,
+.elementor-1081 .elementor-element.elementor-element-6471232>.elementor-motion-effects-container>.elementor-motion-effects-layer::before {
+  background-color: var(--e-global-color-accent);
+  --background-overlay: '';
+}
+
+.elementor-1081 .elementor-element.elementor-element-6471232,
+.elementor-1081 .elementor-element.elementor-element-6471232::before {
+  --border-transition: 0.3s;
+}
+
+.elementor-1081 .elementor-element.elementor-element-816be1d {
+  text-align: center;
+}
+
+.elementor-1081 .elementor-element.elementor-element-816be1d .elementor-heading-title {
+  color: var(--e-global-color-821259b);
+  font-family: "Poppins", Sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 75px;
+  -webkit-text-stroke-color: #000;
+  stroke: #000;
+}
+
+.elementor-1081 .elementor-element.elementor-element-8e25f66 {
+  --display: flex;
+  --background-transition: 0.3s;
+  --padding-top: 0px;
+  --padding-bottom: 0px;
+  --padding-left: 0px;
+  --padding-right: 0px;
+}
+
+.elementor-1081 .elementor-element.elementor-element-c52067c {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --background-transition: 0.3s;
+  --padding-top: 0px;
+  --padding-bottom: 0px;
+  --padding-left: 0px;
+  --padding-right: 0px;
+}
+
+.elementor-1081 .elementor-element.elementor-element-ab8040f {
+  --display: flex;
+  --background-transition: 0.3s;
+  --padding-top: 0px;
+  --padding-bottom: 0px;
+  --padding-left: 0px;
+  --padding-right: 0px;
+}
+
+.elementor-1081 .elementor-element.elementor-element-484a8d7 {
+  --display: flex;
+  --background-transition: 0.3s;
+  --margin-top: 080px;
+  --margin-bottom: 0px;
+  --margin-left: 0px;
+  --margin-right: 0px;
+  --padding-top: 0px;
+  --padding-bottom: 0px;
+  --padding-left: 0px;
+  --padding-right: 0px;
+}
+
+.elementor-1081 .elementor-element.elementor-element-4c97e7b {
+  --display: flex;
+  --background-transition: 0.3s;
+  --padding-top: 0px;
+  --padding-bottom: 0px;
+  --padding-left: 0px;
+  --padding-right: 0px;
+}
+
+.elementor-1081 .elementor-element.elementor-element-8ae1325 {
+  --display: flex;
+  --background-transition: 0.3s;
+  --padding-top: 0px;
+  --padding-bottom: 0px;
+  --padding-left: 0px;
+  --padding-right: 0px;
+  --z-index: 1;
+}
+
+:root {
+  --page-title-display: none;
+}
+
+@media(max-width:1024px) {
+  .elementor-1081 .elementor-element.elementor-element-816be1d .elementor-heading-title {
+    font-size: 44px;
+  }
+}
+
+@media(max-width:767px) {
+  .elementor-1081 .elementor-element.elementor-element-816be1d .elementor-heading-title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .elementor-1081 .elementor-element.elementor-element-484a8d7 {
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 18px;
+    --padding-right: 18px;
+  }
+
+  .elementor-1081 .elementor-element.elementor-element-8ae1325 {
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+  }
+}

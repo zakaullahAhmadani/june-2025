@@ -1,0 +1,365 @@
+.elementor-929 .elementor-element.elementor-element-f5d56b2 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --background-transition: 0.3s;
+    --padding-top: 080px;
+    --padding-bottom: 080px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-929 .elementor-element.elementor-element-f831f66 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.5;
+    --border-radius: 12px 12px 12px 12px;
+    --padding-top: 40px;
+    --padding-bottom: 40px;
+    --padding-left: 40px;
+    --padding-right: 40px;
+}
+
+.elementor-929 .elementor-element.elementor-element-f831f66:not(.elementor-motion-effects-element-type-background),
+.elementor-929 .elementor-element.elementor-element-f831f66>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("../images/cta-Fix-My-Appliances.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-929 .elementor-element.elementor-element-f831f66::before,
+.elementor-929 .elementor-element.elementor-element-f831f66>.elementor-background-video-container::before,
+.elementor-929 .elementor-element.elementor-element-f831f66>.e-con-inner>.elementor-background-video-container::before,
+.elementor-929 .elementor-element.elementor-element-f831f66>.elementor-background-slideshow::before,
+.elementor-929 .elementor-element.elementor-element-f831f66>.e-con-inner>.elementor-background-slideshow::before,
+.elementor-929 .elementor-element.elementor-element-f831f66>.elementor-motion-effects-container>.elementor-motion-effects-layer::before {
+    background-color: var(--e-global-color-accent);
+    --background-overlay: '';
+}
+
+.elementor-929 .elementor-element.elementor-element-f831f66,
+.elementor-929 .elementor-element.elementor-element-f831f66::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-929 .elementor-element.elementor-element-b57dda9 {
+    --display: flex;
+    --gap: 20px 0px;
+    --background-transition: 0.3s;
+    --padding-top: 40px;
+    --padding-bottom: 40px;
+    --padding-left: 40px;
+    --padding-right: 40px;
+}
+
+.elementor-929 .elementor-element.elementor-element-d025beb {
+    text-align: center;
+}
+
+.elementor-929 .elementor-element.elementor-element-d025beb .elementor-heading-title {
+    color: var(--e-global-color-821259b);
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.elementor-929 .elementor-element.elementor-element-c15fbf9>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-929 .elementor-element.elementor-element-c15fbf9 {
+    text-align: center;
+    color: var(--e-global-color-821259b);
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.elementor-929 .elementor-element.elementor-element-45c72d1 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --justify-content: center;
+    --align-items: center;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-929 .elementor-element.elementor-element-87ddcfe .elementor-button {
+    background-color: var(--e-global-color-primary);
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    fill: var(--e-global-color-821259b);
+    color: var(--e-global-color-821259b);
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: var(--e-global-color-primary);
+    border-radius: 35px 35px 35px 35px;
+    padding: 17px 35px 17px 35px;
+}
+
+.elementor-929 .elementor-element.elementor-element-87ddcfe .elementor-button:hover,
+.elementor-929 .elementor-element.elementor-element-87ddcfe .elementor-button:focus {
+    background-color: var(--e-global-color-secondary);
+    border-color: var(--e-global-color-secondary);
+}
+
+.elementor-929 .elementor-element.elementor-element-87ddcfe .elementor-button-content-wrapper {
+    flex-direction: row-reverse;
+}
+
+.elementor-929 .elementor-element.elementor-element-87ddcfe .elementor-button .elementor-button-content-wrapper {
+    gap: 10px;
+}
+
+.elementor-929 .elementor-element.elementor-element-4851971 .elementor-button {
+    background-color: var(--e-global-color-821259b);
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    fill: var(--e-global-color-primary);
+    color: var(--e-global-color-primary);
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: var(--e-global-color-primary);
+    border-radius: 35px 35px 35px 35px;
+    padding: 17px 35px 17px 35px;
+}
+
+.elementor-929 .elementor-element.elementor-element-4851971 .elementor-button:hover,
+.elementor-929 .elementor-element.elementor-element-4851971 .elementor-button:focus {
+    background-color: var(--e-global-color-secondary);
+    color: var(--e-global-color-821259b);
+    border-color: var(--e-global-color-secondary);
+}
+
+.elementor-929 .elementor-element.elementor-element-4851971 .elementor-button-content-wrapper {
+    flex-direction: row-reverse;
+}
+
+.elementor-929 .elementor-element.elementor-element-4851971 .elementor-button .elementor-button-content-wrapper {
+    gap: 10px;
+}
+
+.elementor-929 .elementor-element.elementor-element-4851971 .elementor-button:hover svg,
+.elementor-929 .elementor-element.elementor-element-4851971 .elementor-button:focus svg {
+    fill: var(--e-global-color-821259b);
+}
+
+@media(max-width:1024px) {
+    .elementor-929 .elementor-element.elementor-element-f831f66 {
+        --border-radius: 0px 0px 0px 0px;
+    }
+
+    .elementor-929 .elementor-element.elementor-element-d025beb .elementor-heading-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .elementor-929 .elementor-element.elementor-element-87ddcfe .elementor-button {
+        padding: 016px 028px 016px 028px;
+    }
+
+    .elementor-929 .elementor-element.elementor-element-4851971 .elementor-button {
+        padding: 16px 28px 16px 28px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-929 .elementor-element.elementor-element-f5d56b2 {
+        --padding-top: 080px;
+        --padding-bottom: 080px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-929 .elementor-element.elementor-element-f831f66 {
+        --padding-top: 40px;
+        --padding-bottom: 40px;
+        --padding-left: 14px;
+        --padding-right: 14px;
+    }
+
+    .elementor-929 .elementor-element.elementor-element-b57dda9 {
+        --padding-top: 025px;
+        --padding-bottom: 025px;
+        --padding-left: 14px;
+        --padding-right: 14px;
+    }
+
+    .elementor-929 .elementor-element.elementor-element-d025beb .elementor-heading-title {
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    .elementor-929 .elementor-element.elementor-element-c15fbf9 {
+        font-size: 16px;
+    }
+
+    .elementor-929 .elementor-element.elementor-element-87ddcfe .elementor-button {
+        font-size: 15px;
+    }
+
+    .elementor-929 .elementor-element.elementor-element-4851971 .elementor-button {
+        font-size: 15px;
+    }
+}
+
+@media(min-width:1025px) {
+
+    .elementor-929 .elementor-element.elementor-element-f831f66:not(.elementor-motion-effects-element-type-background),
+    .elementor-929 .elementor-element.elementor-element-f831f66>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-attachment: fixed;
+    }
+}
+
+/* Start custom CSS for button, class: .elementor-element-87ddcfe */
+.my-animated-button .elementor-button {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.35s;
+}
+
+.my-animated-button .elementor-button:hover {
+    transition: all 0.35s !important;
+}
+
+
+.my-animated-button .elementor-button::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -100%;
+    width: 125%;
+    height: 125%;
+    background: linear-gradient(to top,
+            rgba(229, 172, 142, 0),
+            rgba(255, 255, 255, 0.7) 50%,
+            rgba(229, 172, 142, 0));
+
+    transform: rotate(45deg);
+    z-index: 0;
+    animation: wave-animation 2.5s infinite linear;
+    pointer-events: none;
+}
+
+.my-animated-button .elementor-button span,
+.my-animated-button .elementor-button .elementor-button-icon {
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes wave-animation {
+    0% {
+        top: -50%;
+        left: -100%;
+    }
+
+    50% {
+        top: 0%;
+        left: 0%;
+    }
+
+    100% {
+        top: 50%;
+        left: 100%;
+    }
+}
+
+.my-animated-button .elementor-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End custom CSS */
+/* Start custom CSS for button, class: .elementor-element-4851971 */
+.my-animated-button-2 .elementor-button {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: #ffffff;
+    color: #007cfb;
+    border: 2px solid #007cfb;
+    transition: all 0.35s ease;
+}
+
+.my-animated-button-2 .elementor-button:hover {
+    background: #007cfb;
+    color: #ffffff;
+    transition: all 0.35s ease;
+}
+
+.my-animated-button-2 .elementor-button::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -100%;
+    width: 125%;
+    height: 125%;
+    background: linear-gradient(to top,
+            rgba(0, 124, 251, 0),
+            rgba(0, 124, 251, 0.3) 50%,
+            rgba(0, 124, 251, 0));
+    transform: rotate(45deg);
+    z-index: 0;
+    animation: wave-animation 2.5s infinite linear;
+    pointer-events: none;
+}
+
+.my-animated-button-2 .elementor-button span,
+.my-animated-button-2 .elementor-button .elementor-button-icon {
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes wave-animation {
+    0% {
+        top: -50%;
+        left: -100%;
+    }
+
+    50% {
+        top: 0%;
+        left: 0%;
+    }
+
+    100% {
+        top: 50%;
+        left: 100%;
+    }
+}
+
+.my-animated-button-2 .elementor-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-b57dda9 */
+.cta-bg {
+    background-color: rgba(0, 0, 0, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px) saturate(100%);
+    border-radius: 12px;
+}
+
+/* End custom CSS */

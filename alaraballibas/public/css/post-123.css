@@ -1,0 +1,714 @@
+.elementor-123 .elementor-element.elementor-element-864fe78 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --justify-content: center;
+    --align-items: center;
+    --gap: 15px 0px;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.54;
+    --padding-top: 0140px;
+    --padding-bottom: 0140px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-864fe78:not(.elementor-motion-effects-element-type-background),
+.elementor-123 .elementor-element.elementor-element-864fe78>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("../Assets/mainimages.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-123 .elementor-element.elementor-element-864fe78::before,
+.elementor-123 .elementor-element.elementor-element-864fe78>.elementor-background-video-container::before,
+.elementor-123 .elementor-element.elementor-element-864fe78>.e-con-inner>.elementor-background-video-container::before,
+.elementor-123 .elementor-element.elementor-element-864fe78>.elementor-background-slideshow::before,
+.elementor-123 .elementor-element.elementor-element-864fe78>.e-con-inner>.elementor-background-slideshow::before,
+.elementor-123 .elementor-element.elementor-element-864fe78>.elementor-motion-effects-container>.elementor-motion-effects-layer::before {
+    background-color: var(--e-global-color-a8f4f38);
+    --background-overlay: '';
+}
+
+.elementor-123 .elementor-element.elementor-element-864fe78,
+.elementor-123 .elementor-element.elementor-element-864fe78::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-123 .elementor-element.elementor-element-3cc0e15 {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.elementor-123 .elementor-element.elementor-element-3cc0e15 .elementor-heading-title {
+    color: var(--e-global-color-821259b);
+    font-family: "Poppins", Sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 75px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+
+.elementor-123 .elementor-element.elementor-element-6e49471>.elementor-widget-container {
+    padding: 10px 0px 0px 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-6e49471 {
+    text-align: center;
+    color: var(--e-global-color-821259b);
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.elementor-123 .elementor-element.elementor-element-1bae507 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --justify-content: center;
+    --align-items: center;
+    --background-transition: 0.3s;
+    --padding-top: 20px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-5a545ba {
+    --icon-box-icon-margin: 15px;
+}
+
+.elementor-123 .elementor-element.elementor-element-5a545ba .elementor-icon-box-title {
+    margin-bottom: 12px;
+}
+
+.elementor-123 .elementor-element.elementor-element-5a545ba .elementor-icon {
+    font-size: 50px;
+}
+
+.elementor-123 .elementor-element.elementor-element-5a545ba .elementor-icon-box-title,
+.elementor-123 .elementor-element.elementor-element-5a545ba .elementor-icon-box-title a {
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-5a545ba .elementor-icon-box-description {
+    color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-123 .elementor-element.elementor-element-4e086ab {
+    --icon-box-icon-margin: 15px;
+}
+
+.elementor-123 .elementor-element.elementor-element-4e086ab .elementor-icon-box-title {
+    margin-bottom: 12px;
+}
+
+.elementor-123 .elementor-element.elementor-element-4e086ab .elementor-icon {
+    font-size: 50px;
+}
+
+.elementor-123 .elementor-element.elementor-element-4e086ab .elementor-icon-box-title,
+.elementor-123 .elementor-element.elementor-element-4e086ab .elementor-icon-box-title a {
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-4e086ab .elementor-icon-box-description {
+    color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-123 .elementor-element.elementor-element-3bc96fb {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --justify-content: center;
+    --align-items: center;
+    --background-transition: 0.3s;
+    --padding-top: 20px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-0ff43c5 .elementor-button {
+    background-color: var(--e-global-color-primary);
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    fill: var(--e-global-color-821259b);
+    color: var(--e-global-color-821259b);
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: var(--e-global-color-primary);
+    border-radius: 35px 35px 35px 35px;
+    padding: 17px 35px 17px 35px;
+}
+
+.elementor-123 .elementor-element.elementor-element-0ff43c5 .elementor-button:hover,
+.elementor-123 .elementor-element.elementor-element-0ff43c5 .elementor-button:focus {
+    background-color: var(--e-global-color-secondary);
+    border-color: var(--e-global-color-secondary);
+}
+
+.elementor-123 .elementor-element.elementor-element-0ff43c5 .elementor-button-content-wrapper {
+    flex-direction: row-reverse;
+}
+
+.elementor-123 .elementor-element.elementor-element-0ff43c5 .elementor-button .elementor-button-content-wrapper {
+    gap: 10px;
+}
+
+.elementor-123 .elementor-element.elementor-element-d68b71c .elementor-button {
+    background-color: var(--e-global-color-821259b);
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    fill: var(--e-global-color-primary);
+    color: var(--e-global-color-primary);
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: var(--e-global-color-primary);
+    border-radius: 35px 35px 35px 35px;
+    padding: 17px 35px 17px 35px;
+}
+
+.elementor-123 .elementor-element.elementor-element-d68b71c .elementor-button:hover,
+.elementor-123 .elementor-element.elementor-element-d68b71c .elementor-button:focus {
+    background-color: var(--e-global-color-secondary);
+    color: var(--e-global-color-821259b);
+    border-color: var(--e-global-color-secondary);
+}
+
+.elementor-123 .elementor-element.elementor-element-d68b71c .elementor-button-content-wrapper {
+    flex-direction: row-reverse;
+}
+
+.elementor-123 .elementor-element.elementor-element-d68b71c .elementor-button .elementor-button-content-wrapper {
+    gap: 10px;
+}
+
+.elementor-123 .elementor-element.elementor-element-d68b71c .elementor-button:hover svg,
+.elementor-123 .elementor-element.elementor-element-d68b71c .elementor-button:focus svg {
+    fill: var(--e-global-color-821259b);
+}
+
+.elementor-123 .elementor-element.elementor-element-a1658fa {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-6f6f9ef {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --gap: 20px 0px;
+    --background-transition: 0.3s;
+    --padding-top: 080px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-e2d8724 {
+    width: auto;
+    max-width: auto;
+    z-index: 1;
+    text-align: center;
+}
+
+.elementor-123 .elementor-element.elementor-element-e2d8724.elementor-element {
+    --align-self: center;
+}
+
+.elementor-123 .elementor-element.elementor-element-e2d8724 .elementor-heading-title {
+    color: var(--e-global-color-821259b);
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-size: var(--e-global-typography-accent-font-size);
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-123 .elementor-element.elementor-element-18c2f86 {
+    text-align: center;
+}
+
+.elementor-123 .elementor-element.elementor-element-18c2f86 .elementor-heading-title {
+    color: var(--e-global-color-accent);
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 55px;
+}
+
+.elementor-123 .elementor-element.elementor-element-4476a0c {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    color: var(--e-global-color-accent);
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.elementor-123 .elementor-element.elementor-element-4476a0c>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-1288d12 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-0718e1f {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-efd7efb {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 080px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-c39a38c {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-88e59ba {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-1b8ff22 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-80b6848 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-3154fe3 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-123 .elementor-element.elementor-element-87a3e00 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+    --z-index: 1;
+}
+
+:root {
+    --page-title-display: none;
+}
+
+@media(max-width:1024px) {
+    .elementor-123 .elementor-element.elementor-element-3cc0e15 .elementor-heading-title {
+        font-size: 44px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-5a545ba .elementor-icon-box-description {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-123 .elementor-element.elementor-element-4e086ab .elementor-icon-box-description {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-123 .elementor-element.elementor-element-0ff43c5 .elementor-button {
+        padding: 016px 028px 016px 016px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-d68b71c .elementor-button {
+        padding: 16px 28px 16px 28px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-6f6f9ef {
+        --padding-top: 080px;
+        --padding-bottom: 0px;
+        --padding-left: 18px;
+        --padding-right: 18px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-e2d8724 .elementor-heading-title {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-123 .elementor-element.elementor-element-18c2f86 .elementor-heading-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-123 .elementor-element.elementor-element-864fe78 {
+        --padding-top: 100px;
+        --padding-bottom: 100px;
+        --padding-left: 18px;
+        --padding-right: 18px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-3cc0e15 .elementor-heading-title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-6e49471 {
+        font-size: 16px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-5a545ba .elementor-icon {
+        font-size: 40px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-5a545ba .elementor-icon-box-title,
+    .elementor-123 .elementor-element.elementor-element-5a545ba .elementor-icon-box-title a {
+        font-size: 16px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-5a545ba .elementor-icon-box-description {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-123 .elementor-element.elementor-element-4e086ab .elementor-icon {
+        font-size: 40px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-4e086ab .elementor-icon-box-title,
+    .elementor-123 .elementor-element.elementor-element-4e086ab .elementor-icon-box-title a {
+        font-size: 16px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-4e086ab .elementor-icon-box-description {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-123 .elementor-element.elementor-element-0ff43c5 .elementor-button {
+        font-size: 15px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-d68b71c .elementor-button {
+        font-size: 15px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-6f6f9ef {
+        --gap: 10px 0px;
+        --padding-top: 050px;
+        --padding-bottom: 0px;
+        --padding-left: 18px;
+        --padding-right: 18px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-e2d8724 .elementor-heading-title {
+        font-size: var(--e-global-typography-accent-font-size);
+    }
+
+    .elementor-123 .elementor-element.elementor-element-18c2f86 .elementor-heading-title {
+        font-size: 34px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-4476a0c {
+        font-size: 16px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-efd7efb {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 18px;
+        --padding-right: 18px;
+    }
+
+    .elementor-123 .elementor-element.elementor-element-87a3e00 {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+}
+
+/* Start custom CSS for container, class: .elementor-element-1bae507 */
+.reviewsbox {
+    background: white;
+    border-radius: 12px;
+    padding: 8px 12px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for button, class: .elementor-element-0ff43c5 */
+.my-animated-button .elementor-button {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.35s;
+}
+
+.my-animated-button .elementor-button:hover {
+    transition: all 0.35s !important;
+}
+
+
+.my-animated-button .elementor-button::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -100%;
+    width: 125%;
+    height: 125%;
+    background: linear-gradient(to top,
+            rgba(229, 172, 142, 0),
+            rgba(255, 255, 255, 0.7) 50%,
+            rgba(229, 172, 142, 0));
+
+    transform: rotate(45deg);
+    z-index: 0;
+    animation: wave-animation 2.5s infinite linear;
+    pointer-events: none;
+}
+
+.my-animated-button .elementor-button span,
+.my-animated-button .elementor-button .elementor-button-icon {
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes wave-animation {
+    0% {
+        top: -50%;
+        left: -100%;
+    }
+
+    50% {
+        top: 0%;
+        left: 0%;
+    }
+
+    100% {
+        top: 50%;
+        left: 100%;
+    }
+}
+
+.my-animated-button .elementor-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End custom CSS */
+/* Start custom CSS for button, class: .elementor-element-d68b71c */
+.my-animated-button-2 .elementor-button {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: #ffffff;
+    color: #007cfb;
+    border: 2px solid #007cfb;
+    transition: all 0.35s ease;
+}
+
+.my-animated-button-2 .elementor-button:hover {
+    background: #007cfb;
+    color: #ffffff;
+    transition: all 0.35s ease;
+}
+
+.my-animated-button-2 .elementor-button::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -100%;
+    width: 125%;
+    height: 125%;
+    background: linear-gradient(to top,
+            rgba(0, 124, 251, 0),
+            rgba(0, 124, 251, 0.3) 50%,
+            rgba(0, 124, 251, 0));
+    transform: rotate(45deg);
+    z-index: 0;
+    animation: wave-animation 2.5s infinite linear;
+    pointer-events: none;
+}
+
+.my-animated-button-2 .elementor-button span,
+.my-animated-button-2 .elementor-button .elementor-button-icon {
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes wave-animation {
+    0% {
+        top: -50%;
+        left: -100%;
+    }
+
+    50% {
+        top: 0%;
+        left: 0%;
+    }
+
+    100% {
+        top: 50%;
+        left: 100%;
+    }
+}
+
+.my-animated-button-2 .elementor-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End custom CSS */
+/* Start custom CSS */
+.style-1 {
+    color: var(--e-global-color-primary);
+}
+
+.subtitle p {
+    position: relative;
+    line-height: 30px;
+    padding: 0px 14px;
+    margin: 0px !important;
+    z-index: 9999 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+.subtitle p::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    background: var(--e-global-color-primary);
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    border-radius: 30px;
+}
+
+.counter-section .subtitle p {
+    color: black !important;
+}
+
+.counter-section .subtitle p::before {
+    background: white;
+}
+
+@media (max-width: 576px) {
+    .elementor-icon-list-items.elementor-inline-items {
+        gap: 10px !important;
+    }
+
+
+}
+
+/* End custom CSS */

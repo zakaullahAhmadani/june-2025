@@ -1,0 +1,9 @@
+
+  .elementor-nav-menu a:hover {
+    color: #ffc107 !important; /* Yellow on hover */
+  }
+
+  .elementor-item-active {
+    color: #ffc107 !important; /* Yellow when active */
+    font-weight: bold;
+  }
